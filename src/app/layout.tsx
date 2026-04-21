@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Snippix",
+  title: "Codivex",
   description:
-    "Snippix is a tool that allows you to create beautiful code snippets.",
+    "Codivex is a tool that allows you to create beautiful and sharable code snippets.",
 };
 
 export default function RootLayout({

@@ -5,9 +5,9 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "../ui/select";
-import { cn } from "@/lib/utils";
-import { usePreferencesStore } from "@/store/use-preferences-store";
+} from "@/src/components/ui/select";
+import { cn } from "@/type/utils";
+import { usePreferencesStore } from "@/type/store/use-preferences-store";
 
 export default function ThemeSelect() {
   const theme = usePreferencesStore((state) => state.theme);

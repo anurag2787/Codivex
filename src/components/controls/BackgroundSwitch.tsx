@@ -1,5 +1,5 @@
-import { usePreferencesStore } from "@/store/use-preferences-store";
-import { Switch } from "../ui/switch";
+import { usePreferencesStore } from "@/type/store/use-preferences-store";
+import { Switch } from "@/src/components/ui/switch";
 
 export default function BackgroundSwitch() {
   const showBg = usePreferencesStore((state) => state.showBackground);

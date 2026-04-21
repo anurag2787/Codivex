@@ -3,24 +3,24 @@
 import { useEffect } from "react";
 import { useRef } from "react";
 import { useState } from "react";
-import { usePreferencesStore } from "@/store/use-preferences-store";
+import { usePreferencesStore } from "@/type/store/use-preferences-store";
 import { fonts } from "@/options";
 import { themes } from "@/options";
-import { cn } from "@/lib/utils";
-import CodeEditor from "@/components/CodeEditor";
-import WidthMeasurement from "@/components/WidthMeasurement";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { cn } from "@/type/utils";
+import CodeEditor from "@/src/components/CodeEditor";
+import WidthMeasurement from "@/src/components/WidthMeasurement";
+import { Button } from "@/src/components/ui/button";
+import { Card, CardContent } from "@/src/components/ui/card";
 import { Resizable } from "re-resizable";
-import ThemeSelect from "@/components/controls/ThemeSelect";
-import LanguageSelect from "@/components/controls/LanguageSelect";
+import ThemeSelect from "@/src/components/controls/ThemeSelect";
+import LanguageSelect from "@/src/components/controls/LanguageSelect";
 import { ResetIcon } from "@radix-ui/react-icons";
-import FontSelect from "@/components/controls/FontSelect";
-import FontSizeInput from "@/components/controls/FontSizeInput";
-import PaddingSlider from "@/components/controls/PaddingSlider";
-import BackgroundSwitch from "@/components/controls/BackgroundSwitch";
-import DarkModeSwitch from "@/components/controls/DarkModeSwitch";
-import ExportOptions from "@/components/controls/ExportOptions";
+import FontSelect from "@/src/components/controls/FontSelect";
+import FontSizeInput from "@/src/components/controls/FontSizeInput";
+import PaddingSlider from "@/src/components/controls/PaddingSlider";
+import BackgroundSwitch from "@/src/components/controls/BackgroundSwitch";
+import DarkModeSwitch from "@/src/components/controls/DarkModeSwitch";
+import ExportOptions from "@/src/components/controls/ExportOptions";
 
 function App() {
   const [width, setWidth] = useState("auto");

@@ -1,5 +1,5 @@
 import { DownloadIcon, ImageIcon, Link2Icon, Share2Icon } from "lucide-react";
-import { Button } from "../ui/button";
+import { Button } from "@/src/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -7,10 +7,10 @@ import {
   DropdownMenuSeparator,
   DropdownMenuShortcut,
   DropdownMenuTrigger,
-} from "../ui/dropdown-menu";
+} from "@/src/components/ui/dropdown-menu";
 import { toast } from "react-hot-toast";
 import { toBlob, toPng, toSvg } from "html-to-image";
-import { usePreferencesStore } from "@/store/use-preferences-store";
+import { usePreferencesStore } from "@/type/store/use-preferences-store";
 import { useHotkeys } from "react-hotkeys-hook";
 
 export default function ExportOptions({

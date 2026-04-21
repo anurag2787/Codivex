@@ -1,5 +1,5 @@
-import { usePreferencesStore } from "@/store/use-preferences-store";
-import { Input } from "../ui/input";
+import { usePreferencesStore } from "@/type/store/use-preferences-store";
+import { Input } from "@/src/components/ui/input";
 
 export default function FontSizeInput() {
   const fontSize = usePreferencesStore((state) => state.fontSize);

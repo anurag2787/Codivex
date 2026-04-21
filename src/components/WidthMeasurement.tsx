@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@/type/utils";
 
 export default function WidthMeasurement({
   showWidth,

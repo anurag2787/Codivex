@@ -1,5 +1,5 @@
-import { usePreferencesStore } from "@/store/use-preferences-store";
-import { Slider } from "../ui/slider";
+import { usePreferencesStore } from "@/type/store/use-preferences-store";
+import { Slider } from "@/src/components/ui/slider";
 
 export default function PaddingSlider() {
   const padding = usePreferencesStore((state) => state.padding);

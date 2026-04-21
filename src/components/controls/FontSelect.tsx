@@ -5,8 +5,8 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "../ui/select";
-import { usePreferencesStore } from "@/store/use-preferences-store";
+} from "@/src/components/ui/select";
+import { usePreferencesStore } from "@/type/store/use-preferences-store";
 
 export default function FontSelect() {
   const fontStyle = usePreferencesStore((state) => state.fontStyle);

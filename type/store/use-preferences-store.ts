@@ -1,28 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
-// export const usePreferencesStore = create(
-//   persist(
-//     () => ({
-//       code: "",
-//       title: "Untitled",
-//       theme: "hyper",
-//       darkMode: true,
-//       showBackground: true,
-//       language: "plaintext",
-//       autoDetectLanguage: false,
-//       fontSize: 16,
-//       fontStyle: "jetBrainsMono",
-//       padding: 64,
-//     }),
-//     {
-//       name: "user-preferences",
-//     }
-//   )
-// );
-
-// Persistent: Saves data to localStorage under the key user-preferences, so the state is retained after refreshing/restarting the app.
-
 interface PreferencesState {
   code: string;
   title: string;
